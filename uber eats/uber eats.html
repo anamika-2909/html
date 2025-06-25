@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            background-image: url("img/o.jpg");
+            background-repeat: no-repeat;
+            padding: 20px;
+            height: 600px;
+            width: 100%;
+            background-size: cover;
+            margin: 0;
+        }
+         .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+    }
+        .container{
+            background-color: white;
+            padding: 10px 20px;
+        }
+         summary {
+           list-style: none;
+           font-size: 24px;
+           cursor: pointer;
+    }
+         .left-side {
+           display: flex;
+           align-items: center;
+           gap: 15px;
+    }
+      .left-side img {
+        width: 110px;
+    }
+          .right-side {
+             display: flex;
+            justify-content: space-between;
+             gap: 10px;
+            align-items: center;
+         
+    }
+       .right-side a {
+          /* display: flex; */
+          text-decoration: none;
+           padding: 6px 10px; 
+          border-radius: 12px;
+          font-weight: bold;
+          font-size: 14px;
+          text-align: right;
+          /* justify-content: space-between; */
+    }
+    .ride-link{
+        color:black;
+        font-size: 20px;
+        background-color: transparent;
+
+    }
+    .log-in{
+        color: #000;
+        background-color:white;
+        border: 1px solid black;
+    }
+    .sign-up{
+        color:white;
+        background-color: black;
+    }
+  .tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+  }
+  .td{
+     max-width: 32%; 
+     min-width: 280px; 
+     width: 300px; 
+     height: auto;
+     text-align: center;
+     padding: 10px;
+     border-radius: 6px;
+  }
+  .td h2{
+    font-size: 26px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    
+  }
+  .td a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align:left;
+  }
+  .city{
+    padding: 40px;
+    background-color: #fff;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #000;
+  }
+  .header h2{
+    padding: 10px;
+    color: #000;
+  }
+  .city-name{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .col{
+     margin: 20px; 
+}
+.col1{
+    display: flex;
+     margin-top: 100px;
+    box-sizing: border-box;
+  gap: 20px; 
+}
+.list{
+    display: flex;
+
+}
+.col2{
+    list-style:none;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+    gap: 20px;
+    text-decoration: black;
+    color: #000;
+}
+.icon{
+     /* display: flex;  */
+     /* justify-content: space-between;  */
+     text-align: left; 
+     margin: 50px;  
+    gap: 15px;
+    margin-bottom: 100px;
+     
+}
+.cola{
+    
+    display: flex;
+    justify-content: right;  
+    gap: 10px;
+    text-align: center;
+    color: #000;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align:left; 
+    
+}
+.btn{
+     color: #000;
+    background-color:aliceblue;
+    text-decoration: solid;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btn-a{
+    color: white;
+  background-color: #000;
+  font-size: 20px;
+  font-family: bold;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
+   
+
+ .nav{
+    color: #fff;
+    list-style: none;
+    
+ }
+ .foot{
+    display: flex;
+ }
+</style>
+</head>
+<body>
+   <div class="container main">
+    <div class="row">
+        <div class="left-side">
+            <details>
+        <summary><i class="fa fa-bars"></i></summary>
+           <ul class="nav">
+               <button class="btn-a">Sign up</button>
+               <button class="btn">Log in</button>
+               <li><a href="#">Create a business account</a></li>
+               <li><a href="#">Add your restaurant</a></li>
+               <li><a href="#">Sign up to deliver</a></li>
+               <li><a href="#">Get a ride<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+          </ul>
+        </details>
+<img src="img/logo.svg" alt="Uber Eats">
+        </div>
+         <div class="right-side">
+          <a href="#" class="ride-link">Get a ride<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="#" class="log-in">Log in</a>
+          <a href="#" class="sign-up">Sign up</a>
+        
+    </div>
+
+  </div>
+            <div class="Order">
+                <div class="row">
+                    <div class="col">
+                        <h1>Order delivery near you</h1>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col search">
+                  <input type="text" placeholder="Enter delivery address">
+                      <select name="" id="">
+                        <option>Deliver now</option>
+                        <option value="">Schedule for later</option>
+                        </select>
+                <button>Search here</button>
+                    </div>
+                </div>
+               <div class="row">
+                <div class="col">
+                    <a href="">or sign In</a>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+          <div class="table">
+        <div class="tr">
+            <div class="td">
+                <img src="img/feed your employees.webp" alt="" width="100%">
+                <h2>Feed your employees</h2>
+                <a href="">Create a business account</a>
+            </div>
+
+            <div class="td">
+                <img src="img/your restaurant.webp" alt="" width="100%">
+                <h2>Your restaurant, delivered</h2>
+                <a href="">Add your restaurant</a>
+            </div>
+
+            <div class="td">
+                <img src="img/deliver with uber.webp" alt="" width="100%">
+                <h2>Deliver with uber Eats</h2>
+                <a href="">Sign up to deliver</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="city">
+      <div class="header">
+        <h2>Cities near me</h2>
+        <a href="#">View all 500+ cities</a>
+      </div>
+      <div class="map-image">
+        <img src="img/Screenshot 2025-06-24 141301.png" alt="map with cities" width="100%">
+        <div class="city-name">
+            <div class="column">
+                <div>Akron</div>
+                <div>Albuquerque</div>
+                <div>Bridgeport</div>
+                <div>Concord</div>
+                <div>Dayton</div>
+                <div>EI Paso</div>
+          </div>
+
+          <div class="column">
+            <div>Hartford</div>
+            <div>Houston</div>
+            <div>Indianapolis</div>
+            <div>McAllen</div>
+            <div>Mesa</div>
+            <div>Milwaukee</div>
+          </div>
+
+           <div class="column">
+            <div>Nashville</div>
+            <div>New Orleans</div>
+            <div>Oklahoma City</div>
+            <div>Omaha</div>
+            <div>Orlando</div>
+            <div>Palm Bay</div>
+           </div>
+
+        <div class="column">
+            <div>Providence</div>
+            <div>Queens</div>
+            <div>San Antonio</div>
+            <div>Stony Brook</div>
+            <div>Tucson</div>
+            <div>West Hollywood</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="city">
+            <div class="header">
+                <h2>Countries with Uber Eats</h2>
+                <a href="#">View all Countries</a>
+            </div>
+        </div>
+        <div class="city-name">
+        <div class="column">
+                <div>Australia</div>
+                <div>Belgium</div>
+                <div>Canada</div>
+                <div>Chile</div>
+                <div>Costa Rica</div>
+                <div>Dominican Republic</div>
+                <div>Ecuador</div>
+                <div>EI Salvador</div>
+          </div>
+
+          <div class="column">
+            <div>France</div>
+            <div>Germany</div>
+            <div>Guatemala</div>
+            <div>Ireland</div>
+            <div>Italy</div>
+            <div>Japan</div>
+            <div>Kenya</div>
+            <div>Luxembourg</div>
+          </div>
+
+           <div class="column">
+            <div>Maxico</div>
+            <div>Netherlands</div>
+            <div>New Zealand</div>
+            <div>Panama</div>
+            <div>Poland</div>
+            <div>Portugal</div>
+            <div>South Africa</div>
+            <div>Spain</div>
+           </div>
+
+        <div class="column">
+            <div>Sri Lanka</div>
+            <div>Sweden</div>
+            <div>Switzerland</div>
+            <div>Taiwan</div>
+            <div>United Kingdom</div>
+            <div>United States</div>
+        </div>
+        <hr>
+</div>
+<div class="container">
+            <div class="row">
+                <div class="col">
+                <img src="img/logo.svg" alt="Uber Eats">
+               <div class="col1"><img src="img/apple store.svg" alt="apple store" width="100px">
+                <img src="img/google store.png" alt="google store" width="100px"></div> 
+                </div>
+                <div class="row">
+                <div class="list">
+                    <div class="col">
+                        <ul>
+                            <li> <a href="">Get Help</a></li>
+                            <li><a href="">Buy gift cards</a></li>
+                            <li><a href="">Add your restaurant</a></li>
+                            <li><a href="">Sign up to deliver</a></li>
+                           <li><a href="">Create a business account</a></li>
+                            <li><a href="">Promotions</a></li>
+                        </ul>
+                     </div>
+                <div class="list">
+                    <div class="col">
+                        <ul>
+                            <li> <a href="">Restaurant near me</a></li>
+                            <li><a href="">View all cities</a></li>
+                            <li><a href="">View all countries</a></li>
+                            <li><a href="">Pickup near me</a></li>
+                           <li><a href="">About Uber Eats</a></li>
+                            <li><a href="">Shop groceries</a></li>
+                            <li><a href="">English</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+            </div>
+          
+        </div>
+    
+    </div>
+
+         <footer>
+            <div class="footer">
+                <div class="box1">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="cola">
+                        <ul class="foot">
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Do not sell or share my personal information</a></li>
+                          
+                        </ul>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer> 
+   
+</body>
+</html>
+ 
