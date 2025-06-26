@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;   
+        }
+        body{
+           margin: 0;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           height: 100vh;
+           background: rgba(0, 128, 0, 0.29) ;
+           font-family: sans-serif;
+        }
+        form{
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            width: 400px;
+            
+        }
+        .main{
+            background-color: white;
+            box-shadow: 0 0 10px transparent;
+            padding: 8px;
+            /* border-radius: 8px; */
+            width: 400px;
+            padding-top: 10px;
+            margin-top: 20px;
+            
+ }
+  .text{
+            text-align: center;
+            color: green;
+            font-weight: 80;
+        
+        }
+        i{
+            margin-right: 0px;
+        }
+ 
+        
+        
+            
+        label{
+            display: block;
+            margin-bottom: 8px;
+            font-size: 17px;
+            color: green;
+           font-weight: 100;
+           margin-left: 10px;
+            
+
+        }
+        input{
+             width: 100%;
+             padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border-radius: 10px;
+           }
+          .a{
+        
+           justify-content: center;
+           width: 100px;
+           margin: 0 auto;
+           padding: 10pxs;
+           height: 15px;
+            
+           }
+           input[type="radio"]{
+            margin-right: 15px;
+            
+        }
+    textarea{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            height: 100px;
+            
+        } 
+        button{
+            background-color: green;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: 1.5s;
+        }
+        button:hover{
+            background-color: green;
+            border: none;
+            transform: translate(0,-10px);
+        }
+        h1{
+            color: green;
+        }
+       
+        
+    </style>
+</head>
+<body>
+        <h1>GeeksforGeeks</h1>
+        <h3>Feedback Form using HTML and CSS</h3>
+    <div class="main">
+       <div class="text">
+        <i class="fa-solid fa-clock"></i>
+        <p>It only takes two minutes!!</p>
+       </div>
+    </div>
+    <form action="submit" method="post">
+      <div class="field">
+          <div class="table">
+        
+           <div class="tr">
+              <div class="td">
+                <label for="Name"><i class="fa-solid fa-user"></i>Name</label><br>
+                <input type="text" name="Name" id="Name"title="Enter ABCD only" pattern="[A-za-z]+" required><br>
+
+                 <label for=""><i class="fa-solid fa-envelope"></i>Email Address </label><br>
+                <input type="text" name="Email" id="Email"title="enter your email" required><br>
+
+                <label for=""><i class="fa-solid fa-phone"></i>Phone No</label><br>
+                <input type="text" name="" id="" pattern="[0-9]{10}" required><br>
+     <div class="div">
+                <label for=""><i class="fa-solid fa-face-smile"></i>Do you satisfy with our service</label><br>
+                <input type="radio" name="Do you satisfy with our service" id="" class="a" >Yes <br>
+                 <input type="radio" name="Do you satisfy with our service" id="" class="a" >No <br>
+                 </div>
+                 <label for=""><i class="fa-solid fa-message"></i>&nbsp;Write Your Suggestions:</label>
+                 <textarea name="messege" id="messege" required></textarea>
+                 <button type="submit">Submit</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+    </form>  
+</body>
+</html>

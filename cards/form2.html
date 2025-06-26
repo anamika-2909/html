@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("bg\ img.webp");
+            margin: auto;
+        }
+        h1{
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+        }
+        .td{
+            color: white;
+        display: block;
+        gap: 20pxs; 
+        margin-left: 20px;
+        }
+        input{
+            margin-left: 30px;
+        }
+        .ph{
+            margin-right: 25px;
+        }
+     .message{
+             margin-right: 28px;
+             width: 300px;
+             height: 100px;
+             }
+             select{
+                margin-right: 30px;
+             }
+             .msg{
+             margin: auto;
+            text-align: left;
+             /* width: 20px; */
+             }
+             textarea{
+                height: 60px;
+                width: 350px;
+                /* margin-right: 20px; */
+             }
+             button{
+                border: 1px solid white;
+                background: transparent;
+                color: white;
+                padding: 10px;
+                margin-left: 10px;
+                margin-top: 15px;
+             }
+             .msg label{
+                align-items: center;
+                margin-bottom: 10px;
+             }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Contact form</h1>
+    </div>
+    <form action="submmit" method="post">
+        <div class="table">
+            <div class="tr">
+                <div class="td">
+                    <td><label for="">Your Name</label>
+                    <input type="text" name="name" id="" placeholder="First Name">
+                    <input type="text" name="name" id="" placeholder="Last Name"></td> <br>
+<br>
+                    <td><label for="">Your Email</label>
+                    <input type="text" name="Email" id="" placeholder="e.g.hello@contact.net"></td> <br>
+<br>
+                
+                   <td> <label for="" class="ph">Phone*</label>
+                    <input type="text" name="number" id="" pattern="[0-9]{3}" placeholder="###">
+                    <input type="text" name="number" id="" pattern="[0-9]{3}" placeholder="###">
+                    <input type="text" name="number" id="" pattern="[0-9]{3}" placeholder="###"></td><br>
+              
+                    <br>
+                <!-- <div class="Message"> -->
+                   <td class="messege"> <label for="">Message Subject*</label>
+                    <select name="" id="">
+                    <option value="">Other</option>
+                   <option value="">C++</option>
+                   <option value="">HTMl</option>
+                   <option value="">JAVA</option>
+                   <option value="">FRONT END</option>
+                   <option value="">BACK END</option>
+                    </select></td><br>
+                    <!-- </div> -->
+<br>
+           <div class="msg">
+                    <td class="msg"><label for="">Message*</label>
+                    <textarea name="msg" id=""></textarea></td><br>
+                 </div>   
+<br>
+               <div class="verify"></div>
+                    <td><label for="">Verification*</label>
+                    <input type="checkbox" name="viewport" id="">I'm not a robot
+                    </td>
+                   </div> 
+                    <hr>
+                     <button type="">SUBMIT FORM</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
