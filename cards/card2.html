@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f5f5f5;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .card-main{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9va2ezIC8PP4hv6G_mrLwTzsIMXa_2djiVNdotY2LN9FIdf8n0botnoKHLZg3Y_mvYU&usqp=CAU");
+     text-align: center;
+     margin-top: 100px;
+     width: 1100px;
+     height: 700px; 
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgb(0,0,0,0.2);
+     
+     
+}
+.cards{
+     
+    width: 600px;
+    height: 600px;
+     display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 100px;
+ }
+ .div1{
+     
+     background: #fff;
+    height: 400px;
+    width: 180px;
+    /* border: none; */
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 8px;
+    /* font-size: 1px; */
+    /* font-weight: 10px; */
+}
+.footer-pink{
+    color: white;
+    background: #e91e63;
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+    width: 177px;
+    height: 60px;
+    font-size: small;
+    
+}
+.footer-orange{
+          color: white;
+          background: orange;
+          margin-top: 25px;
+           display: flex;
+          gap: 10px;
+          width: 177px;
+          height: 60px;
+          font-size: small;
+}
+.footer-green{
+        color: white;
+        background: green;
+        margin-top: 25px;
+        display: flex;
+        gap: 10px;
+        width: 177px;
+        height: 60px;
+        font-size: small;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="card-main">
+   <div class="cards">
+        <div class="div1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExG6NOvlsRhmLFymL4eBLXmC7XV05RFn7vSid6VXH9-YZOWsB" alt="" width="100%">
+           <p class="time">4 days ago</p>
+            <h2>Post One</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+         <div class="footer-pink">
+            <div><b>4<sup>m</sup></b><br>READ</div>
+            <div><b>5123</b><br>VIEWS</div>
+            <div><b>32</b><br>COMMENTS</div>
+        </div>
+        </div>
+        <!-- <div class="footer pink">
+            <div><b>4<sup>m</sup></b>READ</div>
+            <div><b>5123</b>VIEWS</div>
+            <div><b>32</b>COMMENTS</div>
+        </div> -->
+
+        <div class="div1">
+            <img src="https://www.abccopywriting.com/wp-content/uploads/2017/02/mikael-kristenson-13641-300x200.jpg" alt="" width="100%">
+           <p class="time">1 weeks ago</p>
+            <h2>Post Two</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+        <div class="footer-orange">
+            <div><b>7<sup>m</sup></b><br>READ</div>
+            <div><b>7152</b><br>VIEWS</div>
+            <div><b>21</b><br>COMMENTS</div>
+        </div> 
+        </div>
+         <!-- <div class="footer orange">
+            <div><b>7<sup>m</sup></b>READ</div>
+            <div><b>7152</b>VIEWS</div>
+            <div><b>21</b>COMMENTS</div>
+        </div>  -->
+
+        <div class="div1">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkdFC_hLhVtu4S8MJclFc_iZbfLLt8HDGE4402CNSyUm2bJJDi" alt="" width="100%">
+            <p class="time">3 weeks ago</p>
+            <h2>Post Three</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+         <div class="footer-green">
+            <div><b>5<sup>m</sup></b><br>READ</div>
+            <div><b>3021</b><br>VIEWS</div>
+            <div><b>15</b><br>COMMENTS</div>
+        </div>
+        </div>
+        <!-- <div class="footer green">
+            <div><b>5<sup>m</sup></b>READ</div>
+            <div><b>3021</b>VIEWS</div>
+            <div><b>15</b>COMMENTS</div>
+        </div> -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
+ <!-- <div class="card">
+        <img src="" alt="">
+        <div class="content">
+            <p class="time">4 days ago</p>
+            <h2>Post One</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+        </div>
+        <div class="footer pink">
+            <div><b>4<sup>m</sup></b>READ</div>
+            <div><b>5123</b>VIEWS</div>
+            <div><b>32</b>COMMENTS</div>
+        </div>
+    </div>
+    <div class="card2">
+         <img src="" alt="">
+        <div class="content">
+            <p class="time">1 weeks ago</p>
+            <h2>Post Two</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+        </div>
+        <div class="footer orange">
+            <div><b>7<sup>m</sup></b>READ</div>
+            <div><b>7152</b>VIEWS</div>
+            <div><b>21</b>COMMENTS</div>
+        </div>
+
+    </div>
+   <div class="card3">
+    <img src="" alt="">
+         <div class="content">
+            <p class="time">3 weeks ago</p>
+            <h2>Post Three</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus fugiat quos deleniti mollitia! Velit fugiat voluptas magnam vitae. Numquam?</p>
+        </div>
+        <div class="footer green">
+            <div><b>5<sup>m</sup></b>READ</div>
+            <div><b>3021</b>VIEWS</div>
+            <div><b>15</b>COMMENTS</div>
+        </div>
+   </div> -->
