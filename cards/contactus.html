@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url("https://media.istockphoto.com/id/543998692/photo/background-summer.jpg?s=1024x1024&w=is&k=20&c=s1YTMAwXm7LmnBVZa3TstApna2Gm-QTpxYWtec5VwGY=");
+        }
+        .div1{
+             background-color: white;
+             width: 520px;
+             height: 300px;
+             margin:  100px auto;
+             text-align: right;
+             position: relative;
+        }
+        .form{
+            text-align: left;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        img{
+            width: 280px;
+            height: 300px;
+            position: absolute;
+            top: 100px;
+            left: 33%;
+            
+            }
+            button{
+                width: 200px;
+                height: 30px;
+                background-color: green;
+                margin-right: 17px;
+                margin-top: 10px;
+            }
+            .td{
+                margin-right: 20px;
+                margin-top: 20px;
+                
+            
+            }
+            h1{
+                margin-right: 40px;
+            }
+            h1 .line{
+                background-color: green;
+                width: 60px;
+                height: 5px;
+                margin-left: 350px;
+                
+            }
+            input{
+                width: 200px;
+                height: 30px;
+                text-align: center;
+                border: none;
+                background:  rgba(128, 128, 128, 0.296);
+            }
+            textarea{
+                width: 200px;
+                text-align: center;
+                border: none;
+                background:  rgba(128, 128, 128, 0.296);
+            }
+           
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <form action="submmit" method="post">
+        <h1>Contact Us
+             <div class="line"></div>
+        </h1>
+   
+
+        <div class="table">
+            <div class="tr">
+                <div class="td">
+                    <td><label for=""></label>
+                    <input type="text" name="name" id="" placeholder="Your Name"><br>
+                    
+<br>
+                    <td><label for=""></label>
+                    <input type="text" name="Email" id="" placeholder="Your Email"></td> <br>
+<br>
+                
+                   <td> <label for="" class="ph"></label>
+                    <input type="text" name="number" id="" pattern="[0-9]{10}" placeholder="Phone"><br>
+                    
+                    <br>
+               
+           <div class="msg">
+                    <td class="msg">
+                        <label for=""></label>
+                    <textarea name="msg" id="" placeholder="Message"></textarea></td><br>
+                 </div>   
+
+</div> 
+            
+                     <button type="Send">Send</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwHWWIJSncwF47hWwCGBoc23iqzn6mYRm9rfP2QCWrkG_IvAT4" alt="">
+    </div>
+
+</body>
+</html>

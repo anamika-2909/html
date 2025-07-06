@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body{
+            background-color: rgba(127, 255, 212, 0.774);
+
+        }
+        .div{
+            background-color: white;
+            width: 900px;
+            height: 350px;
+            /* border: 2px solid black; */
+             display: flex;  
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+            border-radius: 10px;
+        }
+        img{
+            clip-path: circle(50% at 49% 54%);
+             border: 2px solid white; 
+        }
+        .img{
+            width: 30%;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .content{
+            /* align-items: center; */
+            text-align: center; 
+             margin-top: 10px; 
+            margin-right: 360px;
+        }
+        .footer{
+            display: flex;
+            gap: 10px;
+            font-size: 21px;
+        }
+       button{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 15px;
+       }
+       button[type=button1]{
+               background: transparent gray;
+            
+       }
+       button[type=button]{
+          background: black;
+         color: white;
+       }
+       a{
+               border: none;
+        outline: none;
+       }
+       p{
+        font-size: 15px;
+       }
+
+        
+    </style>
+
+</head>
+<body>
+  <div class="div">
+     <div class="img">
+    <img src="https://geo-media.beatport.com/image_size/250x250/2a441682-885b-44e9-b4fb-937869261c20.jpg" alt="" width="100%">
+   </div>
+    <div class="content">
+            <h1>Bradley Steve</h1>
+        <h4>@bradsteve</h4>
+        <p>I'm a Front End Developer, follow me to be the  first who see my new work</p>
+         <div class="footer">
+        <div><b>15K</b><br><b>Views</b></div>
+        <div><b>82</b><br><b>Projects</b></div>
+        <div><b>1.3M</b><br><b>Followers</b></div>
+     </div>
+     <button type="button"> Follow</button>
+     <button type="button1"><a href="">View profile</a></button>
+    </div>
+
+
+    </div>
+</body>
+</html>

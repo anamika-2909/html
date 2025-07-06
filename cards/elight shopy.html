@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+       .div1{
+        height:100px;
+        width:100px;
+        background-color: black;
+        position: relative;
+       
+        
+
+       }
+       .div2{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        transform: scale(0);
+        transition: 0.5s;  
+       }
+       .div1:hover .div2{
+        transform: scale(1);
+       }
+       
+       i{
+        color: white;
+         position: absolute;
+         top: 40px;
+         left: 40px;
+       }
+
+    </style>
+</head>
+<body>
+     
+    <div class="div1">
+       <div class="div2"> 
+        </div>
+        <i class="fa-solid fa-gift"></i>
+    </div>
+     
+</body>
+</html>
