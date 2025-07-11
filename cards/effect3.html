@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 220px;
+            width: 440px;
+            /* border: 2px solid red; */
+            margin: 100px auto;
+            background-image: url('https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg');
+            background-size: 100% 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .effect1, .effect2{
+            height: inherit;
+            width: inherit;
+             /* border: 2px solid red;  */
+              background:linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
+            position: absolute;
+            transition: 0.5s;
+        }
+        .effect1{
+            top: 100%;
+            left: -100%;
+        }
+         .effect2{
+            top: -100%;
+            left: 100%;
+        }
+        .box:hover .effect1, .box:hover .effect2{
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="effect1"></div>
+        <div class="effect2"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+               
+
+ 
+
+
