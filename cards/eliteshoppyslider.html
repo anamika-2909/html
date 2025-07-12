@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        .slider{
+            width: 100%;
+            height: 550px;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        .slide1{
+            width: inherit;
+             height: inherit; 
+            background: url("img/banner1.jpg");
+             position: absolute; 
+             left: 0;
+             animation: name 12s infinite;
+ }
+ .slide2{
+            width: inherit;
+             height: inherit; 
+            background: url("img/banner2.jpg");
+             position: absolute; 
+             left: 100%;
+             animation: name 12s infinite;
+ }
+ .slide3{
+            width: inherit;
+             height: inherit; 
+            background: url("img/banner3.jpg");
+            position: absolute;
+             left: 200%;
+              animation: name 12s infinite;
+ }
+ .slide4{
+            width: inherit;
+             height: inherit; 
+            background: url("img/banner4.jpg");
+            position: absolute;
+             left:300%;
+              animation: name 12s infinite;
+ }
+ .slide5{
+            width: inherit;
+             height: inherit; 
+            background: url("img/banner5.jpg");
+            position: absolute;
+             left: 400%;
+              animation: name 12s infinite;
+ }
+        @keyframes name{
+
+          
+            0%{
+            transform: translateX(0%);
+           }
+           25%{
+            transform: translateX(-100%);
+           }
+           50%{
+            transform: translateX(-200%);
+           }
+           75%{
+            transform: translateX(-300%);
+           }
+           100%{
+            transform: translateX(-400%);
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slide1"></div> 
+        <div class="slide2"></div>
+        <div class="slide3"></div>
+        <div class="slide4"></div>
+        <div class="slide5"></div>
+        </div>
+</body>
+</html>
+ <!-- <div class="slides">
+            <div class="slide">
+             <img src="https://nurimetin.github.io/eliteshoppy.github.io/images/banner1.jpg" alt="">
+             <div class="content">
+                <h2>welcome</h2>
+                <button>explore</button>
+             </div>
+        </div>
+        <div class="slide">
+             <img src="https://nurimetin.github.io/eliteshoppy.github.io/images/bot_2.jpg" alt="">
+             <div class="content">
+                <h2>welcome</h2>
+                <button>explore</button>
+             </div>
+       </div>
+        <div class="slide">
+             
+             <img src="https://nurimetin.github.io/eliteshoppy.github.io/images/banner3.jpg" alt="">
+             <div class="content">
+                <h2>welcome</h2>
+                <button>explore</button>
+             </div>
+             </div>
+             <div class="slide">  
+                <img src="https://nurimetin.github.io/eliteshoppy.github.io/images/banner4.jpg" alt="">
+                 <div class="content">
+                <h2>welcome</h2>
+                <button>explore</button>
+             </div>
+            </div>
+
+             <div class="slide">
+             <img src="https://nurimetin.github.io/eliteshoppy.github.io/images/top2.jpg" alt="">
+              <div class="content">
+                <h2>welcome</h2>
+                <button>explore</button>
+             </div>
+        </div>
+    </div> -->
+
