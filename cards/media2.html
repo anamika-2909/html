@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+             /* text-align: center;
+             background-color: brown; */
+             /* color: white; */
+              display: none;
+              
+        
+        }
+        .box img{ 
+            width: 100%;
+            height: 500px;
+        }
+       @media(max-width: 2000px){
+        .Box1{
+    
+            display: block;
+            
+        }
+       }
+        @media(max-width: 1000px){
+        .Box2{
+          
+            display: block;
+        }
+        .Box1{
+            display: none;
+        }
+       }
+
+       @media(max-width: 400px){
+        .Box3{
+          
+            display: block;
+        }
+        .Box1,.Box2{
+            display: none;
+        }
+       }
+       
+    </style>
+</head>
+<body>
+    
+         <div class="box Box1"><img src="img/bg.jpg" alt="hii"> </div> 
+        <div class="box Box2"><img src="img/banner4.jpg" alt="hello"></div>
+        <div class="box Box3"><img src="img/banner1.jpg" alt="1"></div>
+   
+</body>
+</html>
+<!-- <img src="img/bg.jpg" alt="">
+<img src="img/banner4.jpg" alt="">
+<img src="img/banner1.jpg" alt=""> -->

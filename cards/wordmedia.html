@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .box{
+            
+            color: white;
+            background-color: brown;
+            font-size: 30px;
+            text-align: center;
+            display: none;
+        }
+        .box img{
+            width: 100%;
+            height: 500px;
+        }
+        @media(max-width: 2000px){
+            .Box1{
+                display: block;
+            }
+        }
+         @media(max-width:1500px){
+            .Box2{
+                display: block;
+                color: aqua;
+            }
+            .Box1{
+                display: none;
+            }
+        }
+          @media(max-width:1000px){
+            .Box3{
+                display: block;
+                color: gray;
+            }
+            .Box1,.Box2{
+                display: none;
+            }
+        }
+          @media(max-width:800px){
+            .Box4{
+                display: block;
+                color: goldenrod;
+            }
+            .Box1,.Box2,.Box3{
+                display: none;
+            }
+        }
+          @media(max-width:500px){
+            .Box5{
+                display: block;
+                color:blueviolet;
+            }
+            .Box1,.Box2,.Box3,.Box4{
+                display: none;
+            }
+        }
+         @media(max-width:300px){
+            .Box6{
+                display: block;
+                color: green;
+            }
+            .Box1,.Box2,.Box3,.Box4,.Box5{
+                display: none;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box Box1"><img src="img/banner1.jpg" alt="">Shopping</div>
+    <div class="box Box2"><img src="img/banner12.jpg" alt="">This img is Shopping center.</div>
+    <div class="box Box3"><img src="img/banner13.jpg" alt="">images</div>
+    <div class="box Box4"><img src="img/banner2.jpg" alt="">poster</div>
+    <div class="box Box5"><img src="img/banner3.jpg" alt="">Shopping poster</div>
+    <div class="box Box6"><img src="img/banner5.jpg" alt="">Formule </div>
+</body>
+</html>

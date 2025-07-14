@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite shopy card
+        
+    </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:black;
+            height: 500px;
+        }
+        .div1{
+            background-color: white;
+            width: 280px;
+            height: 400px;
+            border: 2px solid gold;
+            margin: 0 auto;
+            position: relative;
+            
+        }
+        .div1:hover img{
+            transform: rotateY(180deg);
+    
+        }
+        img{
+            transition: 0.25s;
+        }
+        p{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 0.5s;
+            margin: auto;
+            opacity: 1;
+        }
+         
+        .div1:hover p{
+       top:250px;
+       left: 0;
+
+        }
+        /* p{
+            text-align: center;
+            color: black;
+        } */
+        .btn{
+            width: 100px;
+            height: 40px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg" alt="">
+        <p class="a">Add to cart</p>
+        <!-- <p>Gabi full sleeve Sweatshirt</p><br>
+        <p>$45.99 <del>$69.71</del></p> -->
+      </div>
+      <div class="div2">
+        <p>Gabi full sleeve Sweatshirt</p><br>
+        <p>$45.99 <del>$69.71</del></p> 
+      </div>
+</body>
+</html>
