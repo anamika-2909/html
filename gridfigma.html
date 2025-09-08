@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma </title>
+   <style>
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,200px);
+        place-content: center;
+        width: 40%;
+        margin: 100px auto;
+        gap:10px;
+        color: white;
+    }
+    .a1{
+        grid-row-start: span 3;
+        /* width: 100px; */
+        background-color: purple;
+        height: 100px;
+       text-align: center;
+      padding: 30px;
+        border-radius: 5px;
+    }
+    .a2{
+        grid-column: span 1;
+        width: 80px;
+        background-color: orangered;
+        height: 100px;
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    .a3{
+        grid-row: span 5;
+        background-color: slateblue;
+        width: 80px;
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    .a4{
+        grid-column: span 1;
+        width: 80px;
+        background-color:darkcyan;
+        height: 100px;
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    .a5{
+        grid-row-start: span 1;
+        /* width: 100px; */
+        background-color:rgb(214, 23, 55);
+        height: 100px;
+       text-align: center;
+      padding: 30px;
+        border-radius: 5px;
+    }
+
+
+
+   </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="div a1">1</div>
+        <div class="div a2">2</div>
+        <div class="div a3">3</div>
+        <div class="div a4">4</div>
+        <div class="div a5">5</div>
+       
+    </div>
+
+   
+    
+</body>
+</html>
